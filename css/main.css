@@ -13,7 +13,6 @@
     transition: 0.3s;
 }
 
-/* Ефект наведення */
 .header__link:hover {
     color: #17365d;
     text-decoration: underline;
