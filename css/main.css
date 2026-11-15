@@ -1,13 +1,20 @@
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    text-align: center;
+.header__list-menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: darkblue;
+.header__link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
-p {
-    font-size: 18px;
+/* Ефект наведення */
+.header__link:hover {
+    color: #17365d;
+    text-decoration: underline;
 }
